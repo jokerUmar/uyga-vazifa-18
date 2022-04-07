@@ -424,11 +424,16 @@ border-radius: 160px;
 }
 
 
-@media only screen and (max-width:375px){
+
+@media screen and (min-width:100px){
 
 .container{
-  width: 345px;
+  max-width: 345px;
   margin: 0 auto;
+}
+
+.main{
+  min-width: 100vw;
 }
 
 .nav__logo{
@@ -471,10 +476,6 @@ input:checked ~ .nav-list-toggle{
   display: block;
   text-align: center;
   transform: translateY(0px) ;
-}
-
-.main{
-  min-width: 100vw;
 }
 
 .block__title{
@@ -560,6 +561,209 @@ width: 300px;
   display: block;
   margin-left: 0;
 }
+
+.section-six_card{
+  margin-left: 20px;
+}
+
+.section-six_card>button{
+width: 180px;
+}
+
+.section-six_card>p{
+  width: 200px;
+}
+
+.section-six_img{
+display: none;
+}
+
+.section-seven{
+background-image: none;
+}
+
+.section-seven>.container>button{
+  margin-left: 60px;
+}
+
+.upper-img{
+width: 120px;
+}
+
+.upper-text{
+  display: none;
+}
+
+.bottom{
+  display: block;
+  }
+
+.bottom-text{
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+
+.bottom-list>ul>li{
+  display: block;
+  line-height: 27px;
+}
+
+}
+
+
+
+
+@media screen and (min-width:475px){
+
+.container{
+  max-width: 445px;
+  margin: 0 auto;
+}
+
+.nav__logo{
+  width: 140px;
+}
+
+.nav-list_dn{
+  display: none;
+} 
+
+label{
+  display: flex;
+  margin-left: 160px;
+}
+
+
+input:checked ~ .fa-times{
+ visibility: visible; 
+}
+
+input:checked ~ .fa-bars{
+ visibility: hidden; 
+} 
+
+.nav-list-toggle{
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding-top: 20px;
+}
+
+.nav-list-toggle>.nav-list__item{
+  margin-top: 10px;
+}
+
+input:checked ~ .nav-list-toggle{
+  width: 100%;
+  height: 180px;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: block;
+  text-align: center;
+  transform: translateY(0px) ;
+}
+
+.main{
+  min-width: 100vw;
+}
+
+.block__title{
+  font-size: 36px;
+  width: 400px;
+}
+
+.block__text{
+  font-size: 18px;
+  width: 340px;
+}
+
+.describe-hr_employee{
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.describe-hr_employee>img{
+width: 400px;
+}
+
+.describe-hr-data-images{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -50px;
+}
+
+.describe-hr-data-images>img:nth-child(3){
+  display: block;
+}
+
+
+.describe-hr-data-images>img:nth-child(5){
+margin-left: 190px;
+margin-top: 20px;
+}
+
+
+.describe-hr-data-images>img{
+  width: 140px;
+  margin-bottom:20px ;
+}
+
+.production-box{
+  padding: 0;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.production-card{
+  width: 220px;
+  margin-bottom: 20px;
+}
+
+.employee-normative{
+  padding-top: 40px;
+}
+
+.employee-normative>.container>img{
+  display: none;
+}
+
+.employee-normative__text{
+  width: 440px;
+  padding-bottom: 30px;
+  font-size: 20px;
+}
+
+.consider-box{
+  width: 445px;
+  display: block;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+.consider-box-card{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.section-five{
+  display: none;
+}
+
+.section-six{
+  padding: 0;
+  margin-left: 0;
+  margin-top: -100px;
+  height: 200px;
+}
+
+.six-card{
+display: none;
+}
+
 
 .section-six_card{
   margin-left: 20px;
