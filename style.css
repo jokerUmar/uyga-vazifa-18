@@ -558,8 +558,7 @@ width: 300px;
 }
 
 .six-card{
-  display: block;
-  margin-left: 0;
+display: none;
 }
 
 .section-six_card{
