@@ -424,10 +424,10 @@ border-radius: 160px;
 }
 
 
-@media screen and (min-width:365px){
+@media screen and (min-width:375px){
 
 .container{
-  width: 350px;
+  width: 345px;
   margin: 0 auto;
 }
 
