@@ -315,16 +315,14 @@ border-radius: 160px;
 }
 
 .section-six{
-  width: 1180px;
-  height: 514px;
   margin: 119px auto;
 }
 
 .six-card{
   display: flex;
   justify-content: space-around;
-}
 
+}
 .section-six_card{
   margin: 136px 132px 146px 98px;
 }
@@ -564,6 +562,7 @@ width: 300px;
 
 .section-six_card{
 margin: 0;
+padding: 0;
 }
 
 .section-six_card>button{
