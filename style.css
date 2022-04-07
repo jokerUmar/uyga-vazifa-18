@@ -554,6 +554,11 @@ width: 300px;
   margin-top: -100px;
 }
 
+.section-six{
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
 .six-card{
   display: block;
   margin-left: 0;
