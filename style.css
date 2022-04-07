@@ -551,6 +551,7 @@ width: 300px;
 }
 
 .section-six{
+  width: 345px;
   padding: 0;
   margin-left: 0;
   margin-top: -100px;
@@ -558,7 +559,8 @@ width: 300px;
 }
 
 .six-card{
-display: none;
+  display: block;
+  margin-left: 0;
 }
 
 .section-six_card{
@@ -753,6 +755,7 @@ margin-top: 20px;
 }
 
 .section-six{
+  width: 445px;
   padding: 0;
   margin-left: 0;
   margin-top: -100px;
@@ -760,7 +763,9 @@ margin-top: 20px;
 }
 
 .six-card{
-display: none;
+  display: block;
+  margin-left: 0;
+  padding-bottom: 250px;
 }
 
 
