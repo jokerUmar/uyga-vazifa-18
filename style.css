@@ -328,13 +328,12 @@ border-radius: 160px;
 }
 
 .section-six_card>h1{
-  width: 360px;
-  height: 108px;
   font-size: 48px;
   margin-bottom: 25px;
 }
 
 .section-six_card>p{
+  margin-top: 18px;
   font-size: 18px;
   margin-bottom: 19px;
 }
