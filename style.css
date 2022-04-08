@@ -93,11 +93,11 @@ font-size: 22px;
   background-image: url(./img/main-img/Frame.png);
    background-size:cover;
   background-repeat: no-repeat;
+  /* display: none; */
 }
 
 .main-content{
 padding-top:120px ;
-width: 475px;
 }
 
 .main__title{
@@ -429,10 +429,6 @@ border-radius: 160px;
   margin: 0 auto;
 }
 
-.main{
-  min-width: 100vw;
-}
-
 .nav__logo{
   width: 120px;
 }
@@ -665,9 +661,10 @@ input:checked ~ .nav-list-toggle{
   transform: translateY(0px) ;
 }
 
-.main{
+/* .main{
   min-width: 100vw;
-}
+} */
+
 
 .block__title{
   font-size: 36px;
